@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6964460924788795911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6964460924788795908}
+  - component: {fileID: 6964460924788795909}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6964460924788795908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6964460924788795911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6964460924788795909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6964460924788795911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f714921d43ea65f4eb3643cbf51baa4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 0}
+  firstExtent: {fileID: 0}
+  levelExtentPrefabs:
+  - {fileID: 3883133461674746356, guid: f907c253a95c6394db9c4b171ad23454, type: 3}
+  - {fileID: 3883133461674746356, guid: d9be147db10ff4e43908ce53486d5c32, type: 3}
+  - {fileID: 3883133461674746356, guid: ca08c5d342ebf9f4684d5dda1e5e8c20, type: 3}
+  - {fileID: 3883133461674746356, guid: 98fb6189abc889b47a3f820bce3dd993, type: 3}
+  - {fileID: 3883133461674746356, guid: def1781d937856e4aa5b413980de05b4, type: 3}
+  - {fileID: 3883133461674746356, guid: 57bc36f4d5668794aa53397a1d652432, type: 3}
+  numOfExtentsBeforeEnd: 10
+  endExtent: {fileID: 3883133461674746356, guid: 8b09260feee399b4c8864f6b6dc33d69, type: 3}
